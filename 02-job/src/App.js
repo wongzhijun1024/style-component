@@ -1,15 +1,15 @@
 import React, { Component } from "react";
-import "./App.css";
-import { GlobalStyle } from "./style";
-import View from "./pages/01/StyledPage";
+import CarouselView from "./components/carousel/CarouselView";
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <GlobalStyle />
-        <View />
+        <h1>styled-component项目作业</h1>
+        <CarouselView />
       </div>
     );
   }
 }
+
 export default App;
